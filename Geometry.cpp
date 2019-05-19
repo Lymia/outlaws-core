@@ -25,11 +25,6 @@
 #include "StdAfx.h"
 #include "Geometry.h"
 
-template struct glm::tvec2<float>;
-template struct glm::tvec2<int>;
-template struct glm::tvec3<float>;
-template struct glm::tvec3<int>;
-
 #define MYINF std::numeric_limits<float>::max()
 
 // intersect two circles, returning number of intersections with points in RA and RB

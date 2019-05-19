@@ -39,32 +39,14 @@
 
 #define GLM_FORCE_RADIANS 1
 #define GLM_FORCE_XYZW 1
-#include "../glm/vec2.hpp"
-#include "../glm/vec3.hpp"
-#include "../glm/vec4.hpp"
-#include "../glm/mat3x3.hpp"
-#include "../glm/mat4x4.hpp"
-#include "../glm/trigonometric.hpp"
-#include "../glm/exponential.hpp"
-#include "../glm/common.hpp"
-//#include "../glm/packing.hpp"
-#include "../glm/geometric.hpp"
-//#include "../glm/matrix.hpp"
-//#include "../glm/vec_relational.hpp"
-//#include "../glm/integer.hpp"
-#include "../glm/gtc/matrix_transform.hpp"
-#include "../glm/gtx/color_space.hpp"
-#include "../glm/gtc/random.hpp"
-//#include "../glm/gtc/quaternion.hpp"
+#include <glm/glm.hpp>
+#include <glm/gtc/matrix_transform.hpp>
+#include <glm/gtx/color_space.hpp>
+#include <glm/gtc/random.hpp>
 
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
-
-extern template struct glm::tvec2<float>;
-extern template struct glm::tvec2<int>;
-extern template struct glm::tvec3<float>;
-extern template struct glm::tvec3<int>;
 
 #include <cmath>
 #include <algorithm>

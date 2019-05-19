@@ -12,6 +12,8 @@
 #  if RELEASE_GOG
 #    define HAS_GOG 1
 #  endif
+#elif AI_MOD
+// do nothing
 #else
 #  define HAS_STEAM 1
 #  define HAS_GOG 1
